@@ -1,0 +1,23 @@
+[
+    {
+        "positionName": "Stage de développeur web",
+        "companyName": "Nom de la société",
+        "salary": "3500€",
+        "contactEmail": "contact@techcorp.com",
+        "website": "https://google.com"
+    },
+    {
+        "companyName": "Igeneve",
+        "positionName": "Stagiaire développeur web",
+        "salary": "1000CHF brute",
+        "contactEmail": "dimitri@igeneve.com",
+        "website": "https://igeneve.com"
+    },
+    {
+        "companyName": "MapSarch",
+        "positionName": "Stagiaire développeur full stack",
+        "salary": "300CHF",
+        "contactEmail": "mathisi@mapsarch.com",
+        "website": "https://mapsarch.com"
+    }
+]
