@@ -1,107 +1,40 @@
-# This repo is no longer maintained. Consider using `npm init vite` and selecting the `svelte` option or — if you want a full-fledged app framework — use [SvelteKit](https://kit.svelte.dev), the official application framework for Svelte.
-
----
-
-# svelte app
-
-This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template.
-
-To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
-
-```bash
-npx degit sveltejs/template svelte-app
-cd svelte-app
-```
-
-*Note that you will need to have [Node.js](https://nodejs.org) installed.*
+# <p align="center">Projet Catalogue de Stages</p>
+## **Description :**
+<br>
+<br>
+Le projet "Catalogue de Stages" est une application web développée avec Svelte. Elle permet aux utilisateurs de visualiser une liste de stages déjà effectué par les étudiants de CREA et aux administrateurs d'ajouter de nouvelles offres de stage via une interface web. L'objectif est de voir ou les étudiants on déjà pu effectuer des stages et voir si l'entreprises les intéresses.
 
 
-## Get started
-
-Install the dependencies...
-
-```bash
-cd svelte-app
-npm install
-```
-
-...then start [Rollup](https://rollupjs.org):
-
-```bash
-npm run dev
-```
-
-Navigate to [localhost:8080](http://localhost:8080). You should see your app running. Edit a component file in `src`, save it, and reload the page to see your changes.
-
-By default, the server will only respond to requests from localhost. To allow connections from other computers, edit the `sirv` commands in package.json to include the option `--host 0.0.0.0`.
-
-If you're using [Visual Studio Code](https://code.visualstudio.com/) we recommend installing the official extension [Svelte for VS Code](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode). If you are using other editors you may need to install a plugin in order to get syntax highlighting and intellisense.
-
-## Building and running in production mode
-
-To create an optimised version of the app:
-
-```bash
-npm run build
-```
-
-You can run the newly built app with `npm run start`. This uses [sirv](https://github.com/lukeed/sirv), which is included in your package.json's `dependencies` so that the app will work when you deploy to platforms like [Heroku](https://heroku.com).
 
 
-## Single-page app mode
+## **Fonctionnalités :**
+<br>
+<br>
+**Visualisation des Stages:**
+<br>
+Les utilisateurs peuvent voir la liste des stages disponibles, incluant les détails tels que le nom du poste, le nom de l'entreprise, le salaire, l'email de contact, et le site web.
+<br>
 
-By default, sirv will only respond to requests that match files in `public`. This is to maximise compatibility with static fileservers, allowing you to deploy your app anywhere.
 
-If you're building a single-page app (SPA) with multiple routes, sirv needs to be able to respond to requests for *any* path. You can make it so by editing the `"start"` command in package.json:
+## **Interface d'Administration:** 
+<br>
+<br>
+Un formulaire administratif permet d'ajouter de nouvelles offres de stage à la liste.
 
-```js
-"start": "sirv public --single"
-```
+	@@ -37,11 +37,11 @@ Lancez le serveur de développement:
+`npm run dev `
 
-## Using TypeScript
 
-This template comes with a script to set up a TypeScript development environment, you can run it immediately after cloning the template with:
 
-```bash
-node scripts/setupTypeScript.js
-```
 
-Or remove the script via:
+## **Contact** <br>
+Pour toute question, veuillez envoyer un email à :  julien.castro@protonmail.com.
 
-```bash
-rm scripts/setupTypeScript.js
-```
 
-If you want to use `baseUrl` or `path` aliases within your `tsconfig`, you need to set up `@rollup/plugin-alias` to tell Rollup to resolve the aliases. For more info, see [this StackOverflow question](https://stackoverflow.com/questions/63427935/setup-tsconfig-path-in-svelte).
 
-## Deploying to the web
 
-### With [Vercel](https://vercel.com)
+## Image du projet 
 
-Install `vercel` if you haven't already:
 
-```bash
-npm install -g vercel
-```
-
-Then, from within your project folder:
-
-```bash
-cd public
-vercel deploy --name my-project
-```
-
-### With [surge](https://surge.sh/)
-
-Install `surge` if you haven't already:
-
-```bash
-npm install -g surge
-```
-
-Then, from within your project folder:
-
-```bash
-npm run build
-surge public my-project.surge.sh
-```
+![image](https://github.com/Niwa-Yume/stage-crea/assets/44587467/89577093-b01a-4a19-b188-3ec80c4bea9b)
+![image](https://github.com/Niwa-Yume/stage-crea/assets/44587467/7230afb4-20ae-4f62-9b5c-cd8214126504)
