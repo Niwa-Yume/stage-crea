@@ -21,7 +21,7 @@ Les utilisateurs peuvent voir la liste des stages disponibles, incluant les dét
 <br>
 Un formulaire administratif permet d'ajouter de nouvelles offres de stage à la liste.
 
-	@@ -37,11 +37,11 @@ Lancez le serveur de développement:
+Lancez le serveur de développement:
 `npm run dev `
 
 
