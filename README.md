@@ -10,7 +10,7 @@ Le projet "Catalogue de Stages" est une application web développée avec Svelte
 ## **Fonctionnalités :**
 <br>
 <br>
-**Visualisation des Stages:**
+Visualisation des stages
 <br>
 Les utilisateurs peuvent voir la liste des stages disponibles, incluant les détails tels que le nom du poste, le nom de l'entreprise, le salaire, l'email de contact, et le site web.
 <br>
@@ -20,6 +20,13 @@ Les utilisateurs peuvent voir la liste des stages disponibles, incluant les dét
 <br>
 <br>
 Un formulaire administratif permet d'ajouter de nouvelles offres de stage à la liste.
+
+## Installation
+
+`git clone https://github.com/Niwa-Yume/stage-crea.git `
+
+`npm install `
+
 
 Lancez le serveur de développement:
 `npm run dev `
