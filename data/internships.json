@@ -19,5 +19,19 @@
         "salary": "300CHF",
         "contactEmail": "mathisi@mapsarch.com",
         "website": "https://mapsarch.com"
+    },
+    {
+        "companyName": "WeCode",
+        "positionName": "Stagiaire développeur Front-End",
+        "salary": "500CHF",
+        "contactEmail": "bruno@wecode.swiss",
+        "website": "http://wecode.swiss/"
+    },
+    {
+        "companyName": "Glacier Optics",
+        "positionName": "Stagiaire développeur Front-End",
+        "salary": "300CHF",
+        "contactEmail": "benoit@glacieroptics.com",
+        "website": "http://www.glacieroptics.com/"
     }
 ]

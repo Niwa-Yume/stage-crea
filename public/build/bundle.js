@@ -1144,11 +1144,11 @@ var app = (function () {
     			if (if_block) if_block.c();
     			if_block_anchor = empty();
     			attr_dev(button0, "class", button0_class_value = "" + (null_to_empty(/*page*/ ctx[0] === 'home' ? 'active' : '') + " svelte-1a4t4r3"));
-    			add_location(button0, file, 8, 4, 257);
+    			add_location(button0, file, 8, 4, 265);
     			attr_dev(button1, "class", button1_class_value = "" + (null_to_empty(/*page*/ ctx[0] === 'admin' ? 'active' : '') + " svelte-1a4t4r3"));
-    			add_location(button1, file, 9, 4, 354);
+    			add_location(button1, file, 9, 4, 363);
     			attr_dev(div, "class", "tab-bar svelte-1a4t4r3");
-    			add_location(div, file, 7, 0, 231);
+    			add_location(div, file, 7, 0, 238);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
