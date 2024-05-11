@@ -2,7 +2,7 @@
 ## **Description :**
 <br>
 <br>
-Le projet "Catalogue de Stages" est une application web développée avec Svelte. Elle permet aux utilisateurs de visualiser une liste de stages déjà effectué par les étudiants de CREA et aux administrateurs d'ajouter de nouvelles offres de stage via une interface web. L'objectif est de voir ou les étudiants on déjà pu effectuer des stages et voir si l'entreprises les intéresses.
+Le projet "Catalogue de Stages" est une application web développée avec Svelte. Elle permet aux utilisateurs de visualiser une liste de stages déjà effectué par les étudiants de CREA et aux career center d'ajouter de nouvelles offres de stage via une interface web. L'objectif est de voir ou les étudiants on déjà pu effectuer des stages et voir si l'entreprises les intéresses.
 
 
 
